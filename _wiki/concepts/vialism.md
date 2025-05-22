@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: Vialism
-categories: [Ideologies]
+categories: [Concepts]
 ---
 
 ![Vialism](https://pbs.twimg.com/media/FOVaBNiXwAMB1JQ.jpg)

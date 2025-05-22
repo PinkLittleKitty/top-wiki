@@ -27,4 +27,4 @@ categories: [Characters]
 
 ---
 
-*Related: [Dema]({{ '/wiki/places/dema/' | relative_url }}), [The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }}), [Vialism]({{ '/wiki/ideologies/vialism/' | relative_url }}), [Banditos]({{ '/wiki/characters/banditos/' | relative_url }})*
+*Related: [Dema]({{ '/wiki/places/dema/' | relative_url }}), [The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }}), [Vialism]({{ '/wiki/concepts/vialism/' | relative_url }}), [Banditos]({{ '/wiki/characters/banditos/' | relative_url }})*

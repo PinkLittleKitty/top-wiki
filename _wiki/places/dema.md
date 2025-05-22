@@ -50,4 +50,4 @@ literally express the desire to break out of confining mindsets. [See also: Clan
 
 ---
 
-*Related: [Trench]({{ '/wiki/places/trench/' | relative_url }}), [The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }}), [Banditos]({{ '/wiki/characters/banditos/' | relative_url }}), [Neon Gravestones]({{ '/wiki/concepts/neon-gravestones/' | relative_url }}), [Blurryface]({{ '/wiki/characters/blurryface/' | relative_url }}), [Vialism]({{ '/wiki/ideologies/vialism/' | relative_url }}), [The Wall]({{ '/wiki/places/the-wall/' | relative_url }}), [Clancy]({{ '/wiki/characters/clancy/' | relative_url }})*
+*Related: [Trench]({{ '/wiki/places/trench/' | relative_url }}), [The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }}), [Banditos]({{ '/wiki/characters/banditos/' | relative_url }}), [Neon Gravestones]({{ '/wiki/concepts/neon-gravestones/' | relative_url }}), [Blurryface]({{ '/wiki/characters/blurryface/' | relative_url }}), [Vialism]({{ '/wiki/concepts/vialism/' | relative_url }}), [The Wall]({{ '/wiki/places/the-wall/' | relative_url }}), [Clancy]({{ '/wiki/characters/clancy/' | relative_url }})*
