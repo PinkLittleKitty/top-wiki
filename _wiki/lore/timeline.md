@@ -2,6 +2,7 @@
 layout: wiki
 title: Timeline
 categories: ["Lore"]
+featured: true
 ---
 
 **This page outlines the chronological sequence of events in the Twenty One Pilots lore as experienced by Clancy.**
