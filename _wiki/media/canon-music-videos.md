@@ -12,7 +12,7 @@ The primary narrative of Dema, Clancy, and the Banditos is significantly advance
 <div class="video-gallery-container">
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <!-- <img src="https://img.youtube.com/vi/r_9Kf0D5BTs/mqdefault.jpg" alt="Heavydirtysoul Thumbnail"> -->
+      <img src="https://img.youtube.com/vi/r_9Kf0D5BTs/mqdefault.jpg" alt="Heavydirtysoul Thumbnail">
       <span class="thumbnail-placeholder-text">Video Thumbnail</span></div>
     <div class="video-info">
       <h3 class="video-title"><a href="https://www.youtube.com/watch?v=r_9Kf0D5BTs" target="_blank" rel="noopener noreferrer">1. Heavydirtysoul</a></h3>
