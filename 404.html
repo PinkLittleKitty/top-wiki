@@ -1,0 +1,33 @@
+---
+layout: default
+title: "404 - Page Not Found"
+permalink: /404.html
+---
+
+<div class="wiki-container" style="flex-direction: column; align-items: center; text-align: center; padding: 40px 20px;">
+  <div class="wiki-content" style="width: 100%; max-width: 700px;">
+    <h1 style="font-size: 5em; margin-bottom: 0.2em;">4Ø4</h1>
+    <p style="font-size: 1.5em; color: var(--top-text-secondary);">Sahlo Folina! It seems you've ventured into uncharted territory.</p>
+    <p>The page you're looking for might have been moved, deleted, or perhaps it's just hiding in Trench.</p>
+    
+    <div style="margin-top: 30px; margin-bottom: 30px;">
+      <p>Here are a few things you can try:</p>
+      <ul style="list-style: none; padding: 0;">
+        <li style="margin-bottom: 10px;"><a href="{{ '/' | relative_url }}" class="btn btn-primary">Return to the Homepage</a></li>
+        <li style="margin-bottom: 10px;"><a href="{{ '/wiki/' | relative_url }}" class="btn btn-secondary">Explore the Wiki Index</a></li>
+        <li><a href="{{ '/wiki/all/' | relative_url }}" class="btn btn-secondary">View All Wiki Pages</a></li>
+      </ul>
+    </div>
+
+    <p style="font-size: 0.9em; color: var(--top-text-secondary);">If you believe this is an error, please let the site administrator know. East is Up!</p>
+  </div>
+</div>
+
+<style>
+/* Minimal styling for buttons if not globally available or for override */
+.btn { display: inline-block; padding: 10px 20px; text-decoration: none; border-radius: 3px; font-weight: bold; transition: background-color 0.2s ease; }
+.btn-primary { background-color: var(--top-yellow); color: var(--top-bg-dark); }
+.btn-primary:hover { background-color: #d4c000; }
+.btn-secondary { background-color: var(--top-bg-light); color: var(--top-yellow); border: 1px solid var(--top-yellow); }
+.btn-secondary:hover { background-color: var(--top-yellow); color: var(--top-bg-dark); }
+</style>
