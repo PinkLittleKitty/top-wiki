@@ -6,7 +6,12 @@ permalink: /lyrics/
 
 <div class="content-container">
   <main class="main-content lyrics-listing">
-    <h1>Song Lyrics</h1>
+    <div class="lyrics-listing-header">
+      <h1>{{ page.title }}</h1>
+      <div class="vinyl-decoration">
+        <img src="{{ '/assets/images/vinyl-record.png' | relative_url }}" alt="Spinning Vinyl Record">
+      </div>
+    </div>
 
     {% assign songs_by_album = site.lyrics | group_by: "album" %}
     {% assign sorted_album_groups = songs_by_album | sort: "name" %}
