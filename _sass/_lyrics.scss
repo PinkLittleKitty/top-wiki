@@ -107,7 +107,7 @@
     text-decoration: none;
     transition: background-color 0.2s ease;
     &:hover {
-      background-color: darken(var(--top-yellow), 10%);
+      background-color: darken($top-yellow, 10%);
       color: var(--top-bg-dark);
     }
   }
