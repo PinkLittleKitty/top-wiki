@@ -8,9 +8,6 @@ permalink: /lyrics/
   <main class="main-content lyrics-listing">
     <div class="lyrics-listing-header">
       <h1>{{ page.title }}</h1>
-      <div class="vinyl-decoration">
-        <img src="{{ '/assets/images/vinyl-record.png' | relative_url }}" alt="Spinning Vinyl Record">
-      </div>
     </div>
 
     {% assign songs_by_album = site.lyrics | group_by: "album" %}
