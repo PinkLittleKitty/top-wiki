@@ -25,7 +25,7 @@ layout: default
         {% assign unique_categories = all_categories | uniq | sort %}
         {% for category in unique_categories %}
           <li>
-            <a href="{{ '/wiki/category/' | append: category | relative_url }}">{{ category }}</a>
+            <a href="{{ '/wiki/category/' | append: (category | slugify) | append: '/' | relative_url }}">{{ category }}</a>
           </li>
         {% endfor %}
       </ul>

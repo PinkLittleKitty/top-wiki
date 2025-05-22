@@ -45,7 +45,7 @@ layout: default
     <div class="wiki-categories">
       <span>Categories:</span>
       {% for category in page.categories %}
-        <a href="{{ '/wiki/category/' | append: category | relative_url }}">{{ category }}</a>
+        <a href="{{ '/wiki/category/' | append: (category | slugify) | append: '/' | relative_url }}" class="category-tag">{{ category }}</a>
       {% endfor %}
     </div>
     {% endif %}
