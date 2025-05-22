@@ -12,7 +12,8 @@ categories: [Characters]
 
 * **Origin:** Clancy is a citizen of Dema who grows increasingly disillusioned with its doctrine and rule.
 * **Journals:** His writings appear on the now-archived website (dmaorg.info), chronicling his observations and attempts to escape. The posts are cryptic, poetic, and emotionally raw.
-> "They are asleep. It's time to wake up." - Example of a Clancy-esque journal entry style.
+> "They are asleep. It's time to wake up."
+<p class="quote-attribution"> Example of a Clancy-esque journal entry style. </p>
 
 ## <span class="tape-accent-red">Role in the Lore</span>
 
