@@ -78,7 +78,7 @@ permalink: /wiki/
       
       {% assign unique_categories = all_categories | uniq | sort %}
       {% for category in unique_categories %}
-        <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) | append: '/' }}" class="category-tag">{{ category }}</a>
+        <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) }}" class="category-tag">{{ category }}</a>
       {% endfor %}
     </div>
   </main>

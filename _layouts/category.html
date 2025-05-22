@@ -25,7 +25,7 @@ layout: default
         {% assign unique_categories = all_categories | uniq | sort %}
         {% for category in unique_categories %}
           <li>
-            <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) | append: '/' }}">{{ category }}</a>
+            <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) }}">{{ category }}</a>
           </li>
         {% endfor %}
       </ul>

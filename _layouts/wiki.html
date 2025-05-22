@@ -45,7 +45,7 @@ layout: default
     <div class="wiki-categories">
       <span>Categories:</span>
       {% for category in page.categories %}
-        <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) | append: '/' }}" class="category-tag">{{ category }}</a>
+        <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) }}" class="category-tag">{{ category }}</a>
       {% endfor %}
     </div>
     {% endif %}
