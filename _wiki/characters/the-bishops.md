@@ -25,4 +25,4 @@ categories: [Characters]
 
 ---
 
-*Related: [Dema]({{ '/wiki/dema/' | relative_url }}), [Vialism]({{ '/wiki/vialism/' | relative_url }}), [Clancy]({{ '/wiki/clancy/' | relative_url }}), [Blurryface]({{ '/wiki/blurryface/' | relative_url }})*
+*Related: [Dema]({{ '/wiki/places/dema/' | relative_url }}), [Vialism]({{ '/wiki/ideologies/vialism/' | relative_url }}), [Clancy]({{ '/wiki/characters/clancy/' | relative_url }}), [Blurryface]({{ '/wiki/characters/blurryface/' | relative_url }})*
