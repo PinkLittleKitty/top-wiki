@@ -1,84 +1,80 @@
 ---
 layout: default
-title: Welcome to my Wiki
 ---
-<div class="home-container">
+<div class="home-page-container">
 
-  <section class="intro-section">
-    {{ content }}
-  </section>
-
-  <section class="featured-section">
-    <h2>Featured Pages</h2>
-    <p>Start your journey into the lore with these key entries:</p>
-    {% assign featured_pages = site.wiki | where: "featured", true | sort: 'title' %}
-    {% assign featured_count = featured_pages.size %}
-    {% assign display_limit = 4 %}
-
-    <div class="featured-grid">
-      {% if featured_count > 0 %}
-        {% for page in featured_pages limit:display_limit %}
-          <div class="home-featured-item">
-            <h3><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
-            <p>{{ page.excerpt | strip_html | truncatewords: 30 }}</p>
-          </div>
-        {% endfor %}
-      {% else %}
-        <div class="home-featured-item">
-          <h3><a href="{{ '/wiki/places/dema/' | relative_url }}">Dema</a></h3>
-          <p>Discover the oppressive city controlled by the Nine Bishops.</p>
-        </div>
-        <div class="home-featured-item">
-          <h3><a href="{{ '/wiki/characters/clancy/' | relative_url }}">Clancy</a></h3>
-          <p>Follow the story of the rebel protagonist and his letters.</p>
-        </div>
-        <div class="home-featured-item">
-          <h3><a href="{{ '/wiki/concepts/vialism/' | relative_url }}">Vialism</a></h3>
-          <p>Understand the core ideology of Dema.</p>
-        </div>
-        <div class="home-featured-item">
-          <h3><a href="{{ '/wiki/lore/timeline/' | relative_url }}">Timeline</a></h3>
-          <p>Explore the chronological order of events.</p>
-        </div>
-      {% endif %}
+  <section class="home-hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      {{ content }}
     </div>
   </section>
-  
-  <div class="home-columns">
-    <section class="categories-section home-categories">
-      <h2>Browse by Category</h2>
-      <div class="wiki-categories-list">
-        {% assign all_categories = "" | split: "" %}
-        {% for page in site.wiki %}
-          {% if page.categories %}
-            {% assign all_categories = all_categories | concat: page.categories %}
-          {% endif %}
-        {% endfor %}
-        
-        {% assign unique_categories = all_categories | uniq | sort %}
-        {% for category in unique_categories limit:10 %}
-          <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) }}" class="category-tag">{{ category }}</a>
-        {% endfor %}
+
+  <div class="home-content-wrapper">
+    <section class="home-featured-section">
+      <h2>Key Transmissions</h2>
+      <p class="section-intro">Essential intel to begin your journey into the depths of the lore.</p>
+      {% assign featured_pages = site.wiki | where: "featured", true | sort: 'title' %}
+      {% assign featured_count = featured_pages.size %}
+      {% assign display_limit = 4 %}
+
+      <div class="featured-grid home-featured-grid">
+        {% if featured_count > 0 %}
+          {% for page in featured_pages limit:display_limit %}
+            <div class="home-featured-item">
+              <div class="item-header">
+                <span class="item-icon">||-//</span>
+                <h3><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
+              </div>
+              <p>{{ page.excerpt | strip_html | truncatewords: 25 }}</p>
+              <a href="{{ page.url | relative_url }}" class="read-more">Access File &raquo;</a>
+            </div>
+          {% endfor %}
+        {% else %}
+          {% include home/default-featured.html %}
+        {% endif %}
+      </div>
+    </section>
+    
+    <section class="home-explore-section">
+      <h2>Navigate the Archives</h2>
+      <div class="home-columns">
+        <div class="explore-column categories-column">
+          <h3>By Subject Dossier</h3>
+          <div class="wiki-categories-list home-categories-list">
+            {% assign all_categories = "" | split: "" %}
+            {% for page in site.wiki %}
+              {% if page.categories %}
+                {% assign all_categories = all_categories | concat: page.categories %}
+              {% endif %}
+            {% endfor %}
+            
+            {% assign unique_categories = all_categories | uniq | sort %}
+            {% for category in unique_categories limit:10 %}
+              <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) }}" class="category-tag">{{ category }}</a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="explore-column recent-updates-column">
+          <h3>Latest Intel Drops</h3>
+          <ul class="home-recent-list">
+            {% assign recent_pages = site.wiki | sort: 'date' | reverse %}
+            {% for page in recent_pages limit:5 %}
+              <li>
+                <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+                {% if page.date %}<span class="update-date">{{ page.date | date: "%b %d, '%y" }}</span>{% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="recent-updates-section">
-      <h2>Recently Updated</h2>
-      <ul class="wiki-list home-recent-list">
-        {% assign recent_pages = site.wiki | sort: 'date' | reverse %}
-        {% for page in recent_pages limit:5 %}
-          <li>
-            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-            {% if page.date %}<span class="date">- {{ page.date | date: "%B %d, %Y" }}</span>{% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
-
-  <section class="cta-section">
-    <h2>Ready to Dive In?</h2>
-    <p>Explore the full wiki and uncover all the secrets of Dema and Trench.</p>
-    <a href="{{ '/wiki/' | relative_url }}" class="btn btn-primary">Explore the Full Wiki</a>
-  </section>
+    <section class="home-cta-section">
+      <h2>The Full Dossier Awaits</h2>
+      <p>Uncover every secret. Delve into the complete wiki index and arm yourself with knowledge.</p>
+      <a href="{{ '/wiki/' | relative_url }}" class="btn btn-primary btn-lg">Access All Files</a>
+    </section>
+  </div>
 </div>

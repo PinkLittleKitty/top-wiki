@@ -1,12 +1,11 @@
 ---
 layout: home
-title: Welcome to the TØP Lore Wiki
+title: Welcome, Initiate ||-//
 ---
 
-Welcome, Bandito! You've found the central hub for unraveling the intricate universe of Twenty One Pilots.
-Whether you're new to Dema or a seasoned explorer of Trench, this wiki is your guide.
+You've breached the walls of Dema and stepped into the vast, echoing expanse of Trench. This archive is your guide through the shadows, a collection of fragmented truths, whispered theories, and defiant anthems.
 
-Dive deep into the stories of Clancy, the oppressive city of Dema, the rebellious Banditos, and the complex timeline that binds them all.
-Explore our **featured articles** for key starting points, browse by **category** to find specific themes, or check out the **latest updates** to see what's new.
+Clancy's letters, the Bishops' decrees, the Banditos' codes – it's all here.
+The truth is a weapon. Arm yourself.
 
-The truth is out there. East is Up!
+**East is Up.**
