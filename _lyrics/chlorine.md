@@ -4,6 +4,7 @@ title: "Chlorine"
 album: "Trench"
 track_number: 3
 release_date: 2018-10-05
+youtube_id: "eJnQBXmZ7Ek"
 ---
 
 Sippin' on straight chlorine
