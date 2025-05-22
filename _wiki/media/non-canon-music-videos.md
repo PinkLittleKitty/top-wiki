@@ -20,10 +20,10 @@ While not directly part of the primary Dema/Trench/Clancy narrative, several Twe
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/3J2x4fnH9Ys/mqdefault.jpg" alt="Fairly Local (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/HDI9inno86U/mqdefault.jpg" alt="Fairly Local (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=3J2x4fnH9Ys" target="_blank" rel="noopener noreferrer">Fairly Local (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=HDI9inno86U" target="_blank" rel="noopener noreferrer">Fairly Local (MV)</a></h3>
       <p class="video-description">Similar to *Stressed Out*, showing Blurryface's influence.</p>
     </div>
   </div>
@@ -38,19 +38,19 @@ While not directly part of the primary Dema/Trench/Clancy narrative, several Twe
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/P_j0f3M_btg/mqdefault.jpg" alt="My Blood (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/8mn-FFjIbo8/mqdefault.jpg" alt="My Blood (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=P_j0f3M_btg" target="_blank" rel="noopener noreferrer">My Blood (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=8mn-FFjIbo8" target="_blank" rel="noopener noreferrer">My Blood (MV)</a></h3>
       <p class="video-description">Features a vulture and explores themes of dissociation and observing events happening to oneself through another—potentially foreshadowing the Torchbearer's projection abilities or Clancy's out-of-body experiences.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/eJnQBXmZ7ek/mqdefault.jpg" alt="Chlorine (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/eJnQBXmZ7Ek/mqdefault.jpg" alt="Chlorine (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=eJnQBXmZ7ek" target="_blank" rel="noopener noreferrer">Chlorine (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=eJnQBXmZ7Ek" target="_blank" rel="noopener noreferrer">Chlorine (MV)</a></h3>
       <p class="video-description">Introduces the character Ned and explores the creative process, which Ned symbolizes.</p>
     </div>
   </div>
