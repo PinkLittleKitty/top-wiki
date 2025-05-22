@@ -12,6 +12,7 @@ categories: [Characters]
 
 * **Nico (Nicholas Bourbaki):** The only explicitly named Bishop. Nico is also the canonical identity of Blurryface, representing Tyler Joseph’s inner demons.
 > "Nico is one of the nine bishops that govern the city of Dema." - Tyler Joseph
+<p class="quote-attribution">- Tyler Joseph</p>
 
 ## <span class="tape-accent-yellow">Function and Role</span>
 

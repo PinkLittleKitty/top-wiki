@@ -117,6 +117,16 @@
   text-decoration-color: var(--top-yellow, #FCE300);
 }
 
+.wiki-content .quote-attribution {
+  font-size: 0.9em; /* Slightly smaller */
+  font-style: italic;
+  color: var(--top-text-secondary, #a0a0a0); /* Lighter color */
+  text-align: right; /* Align to the right */
+  margin-top: -0.8em; /* Pull it up slightly closer to the quote */
+  margin-bottom: 1.5em; /* Ensure space after attribution */
+  padding-right: 1.5em; /* Indent from the right if aligned right */
+}
+
 .tape-accent-yellow, .tape-accent-red {
   display: inline-block;
   padding: 2px 8px;
