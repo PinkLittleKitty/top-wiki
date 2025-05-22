@@ -1,0 +1,14 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <g stroke="#FCE300" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Vertical Bar 1 -->
+    <line x1="7" y1="6" x2="7" y2="26" />
+    <!-- Vertical Bar 2 -->
+    <line x1="11" y1="6" x2="11" y2="26" />
+    <!-- Hyphen -->
+    <line x1="14" y1="16" x2="18" y2="16" />
+    <!-- Slash 1 -->
+    <line x1="21" y1="6" x2="24" y2="26" />
+    <!-- Slash 2 -->
+    <line x1="25" y1="6" x2="28" y2="26" />
+  </g>
+</svg>
