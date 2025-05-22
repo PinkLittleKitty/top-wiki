@@ -29,73 +29,73 @@ The primary narrative of Dema, Clancy, and the Banditos is significantly advance
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/u5WvAoYtsQo/mqdefault.jpg" alt="Nico and the Niners Thumbnail">
+      <img src="https://img.youtube.com/vi/hMAPyGoqQVw/mqdefault.jpg" alt="Nico and the Niners Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=u5WvAoYtsQo" target="_blank" rel="noopener noreferrer">3. Nico and the Niners</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=hMAPyGoqQVw" target="_blank" rel="noopener noreferrer">3. Nico and the Niners</a></h3>
       <p class="video-description">Clancy's escape from Dema with the help of the Banditos.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/uv_1AKkeJus/mqdefault.jpg" alt="Levitate Thumbnail">
+      <img src="https://img.youtube.com/vi/uv_1AKKKJnk/mqdefault.jpg" alt="Levitate Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=uv_1AKkeJus" target="_blank" rel="noopener noreferrer">4. Levitate</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=uv_1AKKKJnk" target="_blank" rel="noopener noreferrer">4. Levitate</a></h3>
       <p class="video-description">The Bandito camp is attacked, and Clancy is recaptured.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/C-h0iM4J3TY/mqdefault.jpg" alt="The Livestream Experience Thumbnail">
+      <img src="https://img.youtube.com/vi/pLOMSMmCd24/mqdefault.jpg" alt="The Livestream Experience Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=C-h0iM4J3TY" target="_blank" rel="noopener noreferrer">5. The Livestream Experience</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=pLOMSMmCd24&list=PL3roRV3JHZza7oYpBpy2R73u7KyDq4g8q" target="_blank" rel="noopener noreferrer">5. The Livestream Experience</a></h3>
       <p class="video-description">(Canonical live performance event) Showcases Clancy's forced propaganda performance. Key songs like *Choker* and *Saturday* are contextualized here. (Link to a full stream or official recap if available).</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/SOlK32K1B50/mqdefault.jpg" alt="Saturday Thumbnail">
+      <img src="https://img.youtube.com/vi/FiXVRdotCEk/mqdefault.jpg" alt="Saturday Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=SOlK32K1B50" target="_blank" rel="noopener noreferrer">6. Saturday</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=FiXVRdotCEk" target="_blank" rel="noopener noreferrer">6. Saturday</a></h3>
       <p class="video-description">Depicts Keons' betrayal and Clancy's escape from the submarine with the Torchbearer, leading them to Voldsoy.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/uMSV_f3m11M/mqdefault.jpg" alt="The Outside Thumbnail">
+      <img src="https://img.youtube.com/vi/eNcvblM8-_o/mqdefault.jpg" alt="The Outside Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=uMSV_f3m11M" target="_blank" rel="noopener noreferrer">7. The Outside</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=eNcvblM8-_o" target="_blank" rel="noopener noreferrer">7. The Outside</a></h3>
       <p class="video-description">Clancy and the Torchbearer on Voldsoy, discovering Ned's antlers, and Clancy using psychokinesis to possess Keons's body and start a fire in Dema.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/cOORDcQiRZY/mqdefault.jpg" alt="Overcompensate Thumbnail">
+      <img src="https://img.youtube.com/vi/53tgVlXBZVg/mqdefault.jpg" alt="Overcompensate Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=cOORDcQiRZY" target="_blank" rel="noopener noreferrer">8. Overcompensate</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=53tgVlXBZVg" target="_blank" rel="noopener noreferrer">8. Overcompensate</a></h3>
       <p class="video-description">Clancy and the Torchbearer return to Trench, Clancy uses psychokinesis to inspire rebellion within Dema, and the red-taped rebels emerge.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/_mkiM0L2gLg/mqdefault.jpg" alt="Navigating Thumbnail">
+      <img src="https://img.youtube.com/vi/07YtBj3BEBQ/mqdefault.jpg" alt="Navigating Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=_mkiM0L2gLg" target="_blank" rel="noopener noreferrer">9. Navigating</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=07YtBj3BEBQ" target="_blank" rel="noopener noreferrer">9. Navigating</a></h3>
       <p class="video-description">Clancy traverses Trench, meets the true Torchbearer, and prepares for the final confrontation.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/V51m330fO9E/mqdefault.jpg" alt="Paladin Strait (Music Video) Thumbnail">
+      <img src="https://img.youtube.com/vi/mix9YfaaNa0/mqdefault.jpg" alt="Paladin Strait (Music Video) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=V51m330fO9E" target="_blank" rel="noopener noreferrer">10. Paladin Strait (Music Video)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=mix9YfaaNa0" target="_blank" rel="noopener noreferrer">10. Paladin Strait (Music Video)</a></h3>
       <p class="video-description">The Bandito army clashes with Dema's forces, Clancy infiltrates Dema, defeats the Bishops (except Nico), and confronts Nico.</p>
     </div>
   </div>

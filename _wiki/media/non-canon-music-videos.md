@@ -56,73 +56,73 @@ While not directly part of the primary Dema/Trench/Clancy narrative, several Twe
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/8s_1dYq5fL0/mqdefault.jpg" alt="The Hype (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/Io2hbcrAYBw/mqdefault.jpg" alt="The Hype (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=8s_1dYq5fL0" target="_blank" rel="noopener noreferrer">The Hype (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=Io2hbcrAYBw" target="_blank" rel="noopener noreferrer">The Hype (MV)</a></h3>
       <p class="video-description">A metaphorical "behind the scenes" look at the band's journey leading to *Trench*, also featuring Ned.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/3sOXiL67iRk/mqdefault.jpg" alt="Shy Away (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/3sO-Y1Zbft4/mqdefault.jpg" alt="Shy Away (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=3sOXiL67iRk" target="_blank" rel="noopener noreferrer">Shy Away (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=3sO-Y1Zbft4" target="_blank" rel="noopener noreferrer">Shy Away (MV)</a></h3>
       <p class="video-description">Can be viewed as a Dema-esque propaganda video made by Clancy during his captivity. The dragon imagery subtly foreshadows Trash the Dragon's role in Clancy's escape.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/9ML3n2SOa2s/mqdefault.jpg" alt="Choker (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/2sBRnnnZyFw/mqdefault.jpg" alt="Choker (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=9ML3n2SOa2s" target="_blank" rel="noopener noreferrer">Choker (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=2sBRnnnZyFw" target="_blank" rel="noopener noreferrer">Choker (MV)</a></h3>
       <p class="video-description">The narrative of this music video acts as a microcosm or representation of the Dema universe as a whole, with themes of control, escape, and cyclical struggle.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/wVEPsSy3AcY/mqdefault.jpg" alt="Next Semester (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/a5i-KdUQ47o/mqdefault.jpg" alt="Next Semester (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=wVEPsSy3AcY" target="_blank" rel="noopener noreferrer">Next Semester (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=a5i-KdUQ47o" target="_blank" rel="noopener noreferrer">Next Semester (MV)</a></h3>
       <p class="video-description">Features the Clancy mask.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/LgxjG04nLPU/mqdefault.jpg" alt="Backslide (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/YAmLMohrus4/mqdefault.jpg" alt="Backslide (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=LgxjG04nLPU" target="_blank" rel="noopener noreferrer">Backslide (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=YAmLMohrus4" target="_blank" rel="noopener noreferrer">Backslide (MV)</a></h3>
       <p class="video-description">Contains the Clancy stole (bandana) and references to Ned.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/UXEv0jAAscY/mqdefault.jpg" alt="Routines In The Nights (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/AupwoN8QvbU/mqdefault.jpg" alt="Routines In The Night (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=UXEv0jAAscY" target="_blank" rel="noopener noreferrer">Routines In The Nights (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=AupwoN8QvbU" target="_blank" rel="noopener noreferrer">Routines In The Nights (MV)</a></h3>
       <p class="video-description">Shows Bishops' robes, references to FPE (Failed Perimeter Escape/Feature Performance Event), yellow flowers (Bandito symbolism), and the Clancy stole. Blurryface's possession of Tyler is also briefly seen.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/YhIpGS9d78E/mqdefault.jpg" alt="At The Risk Of Feeling Dumb (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/TnoWOgAD054/mqdefault.jpg" alt="At The Risk Of Feeling Dumb (MV) Thumbnail">
     </div>
     <div class="video-info">
-      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=YhIpGS9d78E" target="_blank" rel="noopener noreferrer">At The Risk Of Feeling Dumb (MV)</a></h3>
+      <h3 class="video-title"><a href="https://www.youtube.com/watch?v=TnoWOgAD054" target="_blank" rel="noopener noreferrer">At The Risk Of Feeling Dumb (MV)</a></h3>
       <p class="video-description">Contains the Clancy stole.</p>
     </div>
   </div>
   <div class="video-gallery-item">
     <div class="video-thumbnail">
-      <img src="https://img.youtube.com/vi/H0a0yvL0X_A/mqdefault.jpg" alt="Oldies Station (MV) Thumbnail">
+      <img src="https://img.youtube.com/vi/fBE_2sHDt4E/mqdefault.jpg" alt="Oldies Station (MV) Thumbnail">
     </div>
      <div class="video-info">
-       <h3 class="video-title"><a href="https://www.youtube.com/watch?v=H0a0yvL0X_A" target="_blank" rel="noopener noreferrer">Oldies Station (MV)</a></h3>
+       <h3 class="video-title"><a href="https://www.youtube.com/watch?v=fBE_2sHDt4E" target="_blank" rel="noopener noreferrer">Oldies Station (MV)</a></h3>
        <p class="video-description">Includes FPE references.</p>
     </div>
   </div>
