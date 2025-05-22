@@ -27,4 +27,4 @@ categories: [Ideologies]
 
 ---
 
-*Related: [Dema]({{ '/wiki/dema/' | relative_url }}), [The Bishops]({{ '/wiki/the-bishops/' | relative_url }}), [Clancy]({{ '/wiki/clancy/' | relative_url }})*
+*Related: [Dema]({{ '/wiki/places/dema/' | relative_url }}), [The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }}), [Clancy]({{ '/wiki/characters/clancy/' | relative_url }})*

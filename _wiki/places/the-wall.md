@@ -25,4 +25,4 @@ categories: [Places]
 
 ---
 
-*Related: [Dema]({{ '/wiki/dema/' | relative_url }}), [Clancy]({{ '/wiki/clancy/' | relative_url }}), [Banditos]({{ '/wiki/banditos/' | relative_url }})*
+*Related: [Dema]({{ '/wiki/places/dema/' | relative_url }}), [Clancy]({{ '/wiki/characters/clancy/' | relative_url }}), [Banditos]({{ '/wiki/characters/banditos/' | relative_url }})*

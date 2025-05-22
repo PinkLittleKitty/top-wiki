@@ -4,14 +4,12 @@ title: The Bishops
 categories: [Characters]
 ---
 
-![Bishops](https://static.wikia.nocookie.net/twenty-one-pilots/images/3/34/The_bishops.png/revision/latest/scale-to-width-down/1200?cb=20250303222553)
-
 **The Bishops** are the nine authoritarian figures who rule over the city of Dema in the Twenty One Pilots lore. Each Bishop governs a district and collectively enforce the ideology of **Vialism**.
 
 ## <span class="tape-accent-red">Named Bishops & Hierarchy</span>
 
 * **Nico (Nicholas Bourbaki):** The only explicitly named Bishop. Nico is also the canonical identity of Blurryface, representing Tyler Joseph’s inner demons.
-> "Nico is one of the nine bishops that govern the city of Dema." - Tyler Joseph
+> "Nico is one of the nine bishops that govern the city of Dema."
 <p class="quote-attribution">- Tyler Joseph</p>
 
 ## <span class="tape-accent-yellow">Function and Role</span>

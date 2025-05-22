@@ -22,14 +22,14 @@ categories: [Places]
 
 * **Rulers of Dema:** Dema is governed by **nine Bishops**, who enforce the city’s harsh order and the faith of **Vialism** (the dominant ideology). Tyler Joseph confirmed that *“Nico is one of the nine bishops that govern the city of Dema.”* Each Bishop is a figure of authority who controls a sector of Dema, though only Nico (Nicholas Bourbaki) is explicitly named in canon.
 * **Vialism:** The Bishops uphold a doctrine called *Vialism*. The reversed intro of *“Nico and the Niners”* includes the line *“we denounce Vialism”*, indicating that Vialism is the controlling faith or belief system in Dema that the characters ultimately reject. \[Read more about Vialism]\({{ '/wiki/vialism/' | relative\_url }})
-* **Role and symbolism:** The Bishops serve as the antagonistic force in the lore, symbolizing the internal struggles (such as anxiety or self-doubt) that prevent the characters from escaping. *“When Bishops come together they will know that / Dema don’t control us”* emphasizes resistance to their rule. [See more: The Bishops]({{ '/wiki/the-bishops/' | relative_url }})
+* **Role and symbolism:** The Bishops serve as the antagonistic force in the lore, symbolizing the internal struggles (such as anxiety or self-doubt) that prevent the characters from escaping. *“When Bishops come together they will know that / Dema don’t control us”* emphasizes resistance to their rule. [See more: The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }})
 
 ## <span class="tape-accent-yellow">The Wall: Control and Isolation</span>
 
 * **Physical barrier:** The **walls of Dema** are a constant motif representing entrapment. Lyrics like the following (in *“Chlorine”*) explicitly tie the walls to the protagonists’ desire to flee:
 > “escape from walls they confined”
 * **Enforcement of control:** Within the walls, the Bishops exercise complete control. The people are cut off from the outside world and kept in fear under Vialist rule. The chants *“Dema don’t control us”* in *“Nico and the Niners”* emphasize the characters’ fight against this control.
-* **Resulting isolation:** The restrictive walls create a sense of hopelessness and claustrophobia. The concept of Dema in the lore mirrors how depression or oppressive forces can isolate a person from the world, stifling creativity and individuality. [Explore more: The Wall]({{ '/wiki/the-wall/' | relative_url }})
+* **Resulting isolation:** The restrictive walls create a sense of hopelessness and claustrophobia. The concept of Dema in the lore mirrors how depression or oppressive forces can isolate a person from the world, stifling creativity and individuality. [Explore more: The Wall]({{ '/wiki/places/the-wall/' | relative_url }})
 
 ## <span class="tape-accent-yellow">Psychological and Thematic Symbolism</span>
 
@@ -37,7 +37,7 @@ categories: [Places]
 * **Need to escape:** The overarching theme (“need to escape”) highlights a transitional life phase. The Trench narrative focuses on breaking free (leaving Dema) as a metaphor for personal growth and recovery. Lyrics like:
 > “escape from walls they confined”
 <p class="quote-attribution">
-literally express the desire to break out of confining mindsets. [See also: Clancy]({{ '/wiki/clancy/' | relative_url }})</p>
+literally express the desire to break out of confining mindsets. [See also: Clancy]({{ '/wiki/characters/clancy/' | relative_url }})</p>
 * **Control and creativity:** The rigid structure of Dema/Vialism suggests suppression of individuality and creativity. The protagonist’s journey (and the Banditos’ rebellion) represents reclaiming one’s voice. For example, *“Chlorine”* mixes imagery of poison and chemical processes, hinting at using creativity (the “chemical” beat) to cope and transform struggles.
 * **Color symbolism:** Dema is dominated by dark reds (Bishops) and browns, reflecting danger and oppression. In contrast, yellow (Banditos, sun imagery) symbolizes hope. Though colors are a visual detail, they reinforce the thematic divide between confinement (red, Dema) and freedom (yellow, light/east). [See also: Banditos]({{ '/wiki/banditos/' | relative_url }})
 
@@ -50,4 +50,4 @@ literally express the desire to break out of confining mindsets. [See also: Clan
 
 ---
 
-*Related: [Trench]({{ '/wiki/trench/' | relative_url }}), [The Bishops]({{ '/wiki/the-bishops/' | relative_url }}), [Banditos]({{ '/wiki/banditos/' | relative_url }}), [Neon Gravestones]({{ '/wiki/neon-gravestones/' | relative_url }}), [Blurryface]({{ '/wiki/blurryface/' | relative_url }}), [Vialism]({{ '/wiki/vialism/' | relative_url }}), [The Wall]({{ '/wiki/the-wall/' | relative_url }}), [Clancy]({{ '/wiki/clancy/' | relative_url }})*
+*Related: [Trench]({{ '/wiki/places/trench/' | relative_url }}), [The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }}), [Banditos]({{ '/wiki/characters/banditos/' | relative_url }}), [Neon Gravestones]({{ '/wiki/concepts/neon-gravestones/' | relative_url }}), [Blurryface]({{ '/wiki/characters/blurryface/' | relative_url }}), [Vialism]({{ '/wiki/ideologies/vialism/' | relative_url }}), [The Wall]({{ '/wiki/places/the-wall/' | relative_url }}), [Clancy]({{ '/wiki/characters/clancy/' | relative_url }})*
