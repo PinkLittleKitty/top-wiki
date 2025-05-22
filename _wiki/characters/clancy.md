@@ -2,6 +2,7 @@
 layout: wiki
 title: Clancy
 categories: [Characters]
+featured: true
 ---
 
 ![Clancy](https://i.redd.it/x80hsjq93jkc1.png)

@@ -2,6 +2,7 @@
 layout: wiki
 title: Dema
 categories: [Places]
+featured: true
 ---
 
 ![The city of Dema](https://i.pinimg.com/originals/00/60/5b/00605b50551ff175819019ed8c311d53.jpg)
