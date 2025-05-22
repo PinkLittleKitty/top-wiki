@@ -1,0 +1,168 @@
+---
+---
+
+@import "minima";
+
+// TØP Theme Variables
+$top-bg-dark: #181818;
+$top-bg-medium: #222222;
+$top-bg-light: #2a2a2a;
+$top-text-primary: #e0e0e0;
+$top-text-secondary: #a0a0a0;
+$top-yellow: #FCE300; // Trench Yellow
+$top-red: #E63946;    // Clancy Red / Rebellion Red
+$top-link-hover: #ffffff;
+
+$font-body: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+$font-heading: 'Special Elite', 'Impact', 'Arial Black', sans-serif;
+
+:root {
+  --top-bg-dark: #{$top-bg-dark};
+  --top-bg-medium: #{$top-bg-medium};
+  --top-bg-light: #{$top-bg-light};
+  --top-text-primary: #{$top-text-primary};
+  --top-text-secondary: #{$top-text-secondary};
+  --top-yellow: #{$top-yellow};
+  --top-red: #{$top-red};
+  --top-link-hover: #{$top-link-hover};
+  --font-body: #{$font-body};
+  --font-heading: #{$font-heading};
+}
+
+body {
+  background-color: $top-bg-dark;
+  color: $top-text-primary;
+  font-family: $font-body;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: $top-bg-medium;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid $top-yellow;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    a {
+      color: $top-yellow;
+      text-decoration: none;
+      font-family: $font-heading;
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  }
+
+  nav {
+    margin-top: 0.5rem;
+    a {
+      color: $top-text-primary;
+      margin: 0 0.75rem;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      &:hover {
+        color: $top-yellow;
+      }
+    }
+  }
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: $top-text-secondary;
+  border-top: 1px solid $top-bg-light;
+  font-size: 0.9em;
+}
+
+a {
+  color: $top-yellow;
+  text-decoration: none;
+  &:hover {
+    color: $top-link-hover;
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+  color: $top-text-primary;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $top-yellow;
+  color: $top-bg-dark;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-transform: uppercase;
+  font-family: $font-body;
+
+  &:hover {
+    background-color: $top-link-hover;
+    color: $top-bg-dark;
+    text-decoration: none;
+  }
+}
+
+.btn-secondary {
+  background-color: $top-red;
+  color: $top-text-primary;
+
+  &:hover {
+    background-color: lighten($top-red, 10%);
+    color: $top-link-hover;
+  }
+}
+
+.home-container .intro-section {
+  background-color: var(--top-bg-medium);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid var(--top-red);
+  border-radius: 3px;
+  h2 {
+    color: var(--top-yellow);
+    margin-top: 0;
+  }
+}
+
+.home-container .featured-section h2,
+.home-container .cta-section h2 {
+  color: var(--top-yellow);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.home-container .featured-item {
+  background-color: var(--top-bg-light);
+  border: 1px solid var(--top-bg-medium);
+  border-radius: 3px;
+  padding: 1rem;
+  h3 a {
+    color: var(--top-yellow);
+  }
+}
+
+.home-container .cta-section {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: var(--top-bg-medium);
+  border-radius: 3px;
+}

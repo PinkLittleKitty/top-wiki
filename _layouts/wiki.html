@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+<div class="wiki-container">
+  <aside class="wiki-sidebar">
+    {% include wiki/search.html %}
+    
+    <div class="sidebar-nav">
+      <h3>Wiki Navigation</h3>
+      <ul>
+        <li><a href="{{ '/wiki/' | relative_url }}">Wiki Home</a></li>
+        <li><a href="{{ '/wiki/all/' | relative_url }}">All Pages</a></li>
+      </ul>
+      
+      <h3>Wiki Pages</h3>
+      <ul>
+        {% assign wiki_pages = site.wiki | sort: 'title' %}
+        {% for page in wiki_pages %}
+          <li>
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
+
+  <main class="wiki-content">
+    <h1>{{ page.title }}</h1>
+    
+    {% if page.date %}
+    <p class="wiki-date">Last updated: {{ page.date | date: "%B %d, %Y" }}</p>
+    {% endif %}
+    
+    {% if page.toc != false %}
+    <div class="toc">
+      <div class="toc-title">Table of Contents</div>
+      <div id="toc-content"></div>
+    </div>
+    {% endif %}
+    
+    {{ content }}
+    
+    {% if page.categories %}
+    <div class="wiki-categories">
+      <span>Categories:</span>
+      {% for category in page.categories %}
+        <a href="{{ '/wiki/category/' | append: category | relative_url }}">{{ category }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </main>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headings = document.querySelectorAll('.wiki-content h2, .wiki-content h3');
+  const tocContent = document.getElementById('toc-content');
+  
+  if (headings.length > 0 && tocContent) {
+    const toc = document.createElement('ul');
+    
+    headings.forEach(function(heading, index) {
+      if (!heading.id) {
+        heading.id = 'section-' + index;
+      }
+      
+      const listItem = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = '#' + heading.id;
+      link.textContent = heading.textContent;
+      
+      if (heading.tagName === 'H3') {
+        listItem.style.marginLeft = '1rem';
+      }
+      
+      listItem.appendChild(link);
+      toc.appendChild(listItem);
+    });
+    
+    tocContent.appendChild(toc);
+  } else {
+    const tocElement = document.querySelector('.toc');
+    if (tocElement) {
+      tocElement.style.display = 'none';
+    }
+  }
+});
+</script>

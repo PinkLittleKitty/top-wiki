@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="wiki-container">
+  <aside class="wiki-sidebar">
+    {% include wiki/search.html %}
+    
+    <div class="sidebar-nav">
+      <h3>Wiki Navigation</h3>
+      <ul>
+        <li><a href="{{ '/wiki/' | relative_url }}">Wiki Home</a></li>
+        <li><a href="{{ '/wiki/all/' | relative_url }}">All Pages</a></li>
+      </ul>
+      
+      <h3>Categories</h3>
+      <ul>
+        {% assign all_categories = "" | split: "" %}
+        {% for page in site.wiki %}
+          {% if page.categories %}
+            {% assign all_categories = all_categories | concat: page.categories %}
+          {% endif %}
+        {% endfor %}
+        
+        {% assign unique_categories = all_categories | uniq | sort %}
+        {% for category in unique_categories %}
+          <li>
+            <a href="{{ '/wiki/category/' | append: category | relative_url }}">{{ category }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
+
+  <main class="wiki-content">
+    <h1>Category: {{ page.category }}</h1>
+    
+    <ul class="wiki-list">
+      {% assign category_pages = site.wiki | where_exp: "item", "item.categories contains page.category" | sort: 'title' %}
+      {% for page in category_pages %}
+        <li>
+          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          {% if page.date %}
+            <span class="date">- {{ page.date | date: "%B %d, %Y" }}</span>
+          {% endif %}
+          {% if page.excerpt %}
+            <p>{{ page.excerpt }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </main>
+</div>

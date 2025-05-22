@@ -1,0 +1,23 @@
+title: TØP LORE WIKI ||-//
+description: Unraveling the intricate world of Twenty One Pilots. Dema, Trench, Clancy, and beyond.
+baseurl: "/top-wiki"
+url: "https://www.justneki.com"
+
+markdown: kramdown
+theme: minima
+
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: "wiki"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

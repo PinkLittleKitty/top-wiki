@@ -1,0 +1,11 @@
+<div class="sidebar-nav">
+  <h3>Wiki Pages</h3>
+  <ul>
+    {% assign wiki_pages = site.wiki | sort: 'title' %}
+    {% for page in wiki_pages %}
+      <li>
+        <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

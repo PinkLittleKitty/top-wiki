@@ -1,0 +1,45 @@
+---
+layout: default
+title: Welcome to my Wiki
+---
+
+<div class="home-container">
+
+  <section class="intro-section">
+    <h2>Welcome to the Jekyll Wiki Template Guide!</h2>
+    <p>This site demonstrates how to use the Jekyll Wiki Template to build your own powerful and easy-to-manage wiki. Explore the guides below to get started.</p>
+    {{ content }}
+  </section>
+
+  <section class="featured-section">
+    <h2>Featured Pages</h2>
+    <div class="featured-grid">
+      <!-- Example: Manually link to a few important pages. Update these paths as needed. -->
+      <div class="featured-item">
+        <h3><a href="{{ '/wiki/getting-started/' | relative_url }}">Getting Started with This Template</a></h3>
+        <p>Your first steps to setting up and using this Jekyll wiki template.</p>
+      </div>
+      <div class="featured-item">
+        <h3><a href="{{ '/wiki/creating-content/' | relative_url }}">Creating Wiki Pages & Content</a></h3>
+        <p>Learn how to add new pages, write content, and organize your wiki.</p>
+      </div>
+      <div class="featured-item">
+        <h3><a href="{{ '/wiki/customizing-your-wiki/' | relative_url }}">Customizing Your Wiki</a></h3>
+        <p>Personalize your wiki's appearance, configuration, and layout.</p>
+      </div>
+        {% assign featured_pages = site.pages | where_exp: "page", "page.featured == true" | slice: 0, 3 %}
+        {% for page in featured_pages %}
+          <div class="featured-item">
+            <h3><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
+            <p>{{ page.excerpt | strip_html | truncatewords: 20 }}</p>
+          </div>
+        {% endfor %}
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <h2>Ready to Dive In?</h2>
+    <p>Browse all topics and find exactly what you're looking for.</p>
+    <a href="{{ '/wiki/' | relative_url }}" class="btn btn-secondary">Go to Full Wiki Index</a>
+  </section>
+</div>
