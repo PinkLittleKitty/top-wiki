@@ -55,7 +55,7 @@ title: Welcome to my Wiki
       {% endfor %}
       
       {% assign unique_categories = all_categories | uniq | sort %}
-      {% for category in unique_categories limit:10 %} {# Limit to show a manageable number on homepage #}
+      {% for category in unique_categories limit:10 %}
         <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) }}" class="category-tag">{{ category }}</a>
       {% endfor %}
     </div>
