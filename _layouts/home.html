@@ -14,15 +14,15 @@ title: Welcome to my Wiki
     <p>Start your journey into the lore with these key entries:</p>
     <div class="featured-grid">
       <div class="featured-item">
-        <h3><a href="{{ '/wiki/dema/' | relative_url }}">Dema</a></h3>
+        <h3><a href="{{ '/wiki/places/dema/' | relative_url }}">Dema</a></h3>
         <p>Discover the oppressive city controlled by the Nine Bishops.</p>
       </div>
       <div class="featured-item">
-        <h3><a href="{{ '/wiki/clancy/' | relative_url }}">Clancy</a></h3>
+        <h3><a href="{{ '/wiki/characters/clancy/' | relative_url }}">Clancy</a></h3>
         <p>Follow the story of the rebel protagonist and his letters.</p>
       </div>
       <div class="featured-item">
-        <h3><a href="{{ '/wiki/the-banditos/' | relative_url }}">The Banditos</a></h3>
+        <h3><a href="{{ '/wiki/characters/banditos/' | relative_url }}">The Banditos</a></h3>
         <p>Learn about the group fighting for freedom from Dema.</p>
       </div>
         {% assign featured_pages = site.wiki | where: "featured", true | sort: 'title' | slice: 0, 3 %}

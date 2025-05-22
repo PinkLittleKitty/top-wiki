@@ -39,7 +39,7 @@ categories: [Places]
 <p class="quote-attribution">
 literally express the desire to break out of confining mindsets. [See also: Clancy]({{ '/wiki/characters/clancy/' | relative_url }})</p>
 * **Control and creativity:** The rigid structure of Dema/Vialism suggests suppression of individuality and creativity. The protagonist’s journey (and the Banditos’ rebellion) represents reclaiming one’s voice. For example, *“Chlorine”* mixes imagery of poison and chemical processes, hinting at using creativity (the “chemical” beat) to cope and transform struggles.
-* **Color symbolism:** Dema is dominated by dark reds (Bishops) and browns, reflecting danger and oppression. In contrast, yellow (Banditos, sun imagery) symbolizes hope. Though colors are a visual detail, they reinforce the thematic divide between confinement (red, Dema) and freedom (yellow, light/east). [See also: Banditos]({{ '/wiki/banditos/' | relative_url }})
+* **Color symbolism:** Dema is dominated by dark reds (Bishops) and browns, reflecting danger and oppression. In contrast, yellow (Banditos, sun imagery) symbolizes hope. Though colors are a visual detail, they reinforce the thematic divide between confinement (red, Dema) and freedom (yellow, light/east). [See also: Banditos]({{ '/wiki/characters/banditos/' | relative_url }})
 
 ## <span class="tape-accent-red">Symbolic Leadership: Nico and Blurryface</span>
 
