@@ -8,13 +8,6 @@ While not directly part of the primary Dema/Trench/Clancy narrative, several Twe
 
 ## <span class="tape-accent-yellow">Videos with Lore Connections & Thematic Value</span>
 
-<div class="gallery-note">
-  Tip: You can replace the placeholder thumbnails with actual YouTube video thumbnails.
-  Use an `&lt;img&gt;` tag inside the `video-thumbnail` div, like so: <br>
-  `&lt;img src="https://img.youtube.com/vi/VIDEO_ID_HERE/mqdefault.jpg" alt="Video Title Thumbnail"&gt;` <br>
-  Replace `VIDEO_ID_HERE` with the actual ID from the YouTube video URL.
-</div>
-
 <div class="video-gallery-container">
   <div class="video-gallery-item">
     <div class="video-thumbnail"><span class="thumbnail-placeholder-text">Video Thumbnail</span></div>

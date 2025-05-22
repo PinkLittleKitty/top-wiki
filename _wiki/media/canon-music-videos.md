@@ -8,12 +8,6 @@ The primary narrative of Dema, Clancy, and the Banditos is significantly advance
 
 ## <span class="tape-accent-yellow">Chronological Storyline Videos</span>
 
-<div class="gallery-note">
-  Tip: You can replace the placeholder thumbnails with actual YouTube video thumbnails.
-  Use an `&lt;img&gt;` tag inside the `video-thumbnail` div, like so: <br>
-  `&lt;img src="https://img.youtube.com/vi/VIDEO_ID_HERE/mqdefault.jpg" alt="Video Title Thumbnail"&gt;` <br>
-  Replace `VIDEO_ID_HERE` with the actual ID from the YouTube video URL.
-</div>
 
 <div class="video-gallery-container">
   <div class="video-gallery-item">
