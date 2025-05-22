@@ -18,14 +18,32 @@ permalink: /lyrics/
 
     {% if site.lyrics.size > 0 %}
       {% for album_group in sorted_album_groups %}
+        {% assign current_album_display_name = album_group.name %}
+        {% assign album_lookup_name = album_group.name %}
+
+        {% if album_group.name == "" or album_group.name == nil %}
+          {% assign current_album_display_name = "Singles & Other Tracks" %}
+          {% assign album_lookup_name = "Singles & Other Tracks" %}
+        {% endif %}
+
+        {% assign album_data = site.data.albums | where: "name", album_lookup_name | first %}
+
         <section class="album-section">
-          <h2>
-            {% if album_group.name == "" or album_group.name == nil %}
-              Singles & Other Tracks
+          <div class="album-header">
+            {% if album_data.image %}
+              <img src="{{ album_data.image | relative_url }}" alt="{{ current_album_display_name }} album art" class="album-art">
             {% else %}
-              {{ album_group.name }} <span class="album-label">(Album)</span>
+              <div class="album-art-placeholder"></div> {# Fallback if no image is defined #}
             {% endif %}
-          </h2>
+            <div class="album-title-container">
+              <h2>
+                {{ current_album_display_name }}
+                {% if album_group.name != "" and album_group.name != nil %}
+                  <span class="album-label">(Album)</span>
+                {% endif %}
+              </h2>
+            </div>
+          </div>
           <ul class="song-list">
             {% assign items_to_sort = album_group.items %}
             {% if album_group.name == "" or album_group.name == nil %}

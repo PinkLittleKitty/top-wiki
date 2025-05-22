@@ -39,13 +39,37 @@
     border-left: 4px solid var(--top-yellow);
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 
+    .album-header {
+      display: flex;
+      align-items: center;
+      gap: 1.5em;
+      margin-bottom: 1.5em;
+    }
+
+    .album-art {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 2px solid var(--top-bg-light);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    }
+
+    .album-art-placeholder {
+      width: 100px;
+      height: 100px;
+      background-color: var(--top-bg-light);
+      border-radius: 4px;
+      border: 2px solid var(--top-bg-dark);
+    }
+
     h2 {
       font-family: var(--font-heading);
       color: var(--top-text-primary);
       border-bottom: 2px solid var(--top-red);
       padding-bottom: 0.5em;
       margin-top: 0;
-      margin-bottom: 1em;
+      margin-bottom: 0;
       font-size: 1.8em;
 
       .album-label {
@@ -53,6 +77,10 @@
         color: var(--top-text-secondary);
         font-weight: normal;
       }
+    }
+
+    .album-title-container {
+      flex-grow: 1;
     }
   }
 

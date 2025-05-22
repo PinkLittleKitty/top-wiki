@@ -12,3 +12,5 @@
   image: "/assets/images/albums/scaled-and-icy-cover.jpg"
 - name: "Clancy"
   image: "/assets/images/albums/clancy-cover.png"
+- name: "Singles & Other Tracks"
+  image: "/assets/images/albums/default-album-art.jpg"
