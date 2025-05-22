@@ -24,4 +24,4 @@ categories: [Concepts]
 
 ---
 
-*Related: \[Vialism]\({{ '/wiki/concepts/vialism/' | relative\_url }}), \[Neon Gravestones]\({{ '/wiki/concepts/neon-gravestones/' | relative\_url }}), \[Psychokinesis]\({{ '/wiki/concepts/psychokinesis/' | relative\_url }}), \[The Bishops]\({{ '/wiki/characters/the-bishops/' | relative\_url }})*
+*Related: [Vialism]({{ '/wiki/concepts/vialism/' | relative\url }}), [Neon Gravestones]({{ '/wiki/concepts/neon-gravestones/' | relative_url }}), [Psychokinesis]({{ '/wiki/concepts/psychokinesis/' | relative_url }}), [The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }})*

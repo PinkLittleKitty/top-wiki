@@ -25,4 +25,4 @@ categories: [Characters]
 
 ---
 
-*Related: \[Clancy]\({{ '/wiki/characters/clancy/' | relative\_url }}), \[The Bishops]\({{ '/wiki/characters/the-bishops/' | relative\_url }}), \[Trash]\({{ '/wiki/characters/trash/' | relative\_url }}), \[Psychokinesis]\({{ '/wiki/concepts/psychokinesis/' | relative\_url }})*
+*Related: [Clancy]({{ '/wiki/characters/clancy/' | relative_url }}), [The Bishops]({{ '/wiki/characters/the-bishops/' | relative_url }}), [Trash]({{ '/wiki/characters/trash/' | relative_url }}), [Psychokinesis]({{ '/wiki/concepts/psychokinesis/' | relative_url }})*

@@ -24,4 +24,4 @@ categories: [Places]
 
 ---
 
-*Related: \[Clancy]\({{ '/wiki/characters/clancy/' | relative\_url }}), \[Voldsoy]\({{ '/wiki/places/voldsoy/' | relative\_url }}), \[Trench]\({{ '/wiki/places/trench/' | relative\_url }}), \[The Torchbearer]\({{ '/wiki/characters/the-torchbearer/' | relative\_url }})*
+*Related: [Clancy]({{ '/wiki/characters/clancy/' | relative_url }}), [Voldsoy]({{ '/wiki/places/voldsoy/' | relative_url }}), [Trench]({{ '/wiki/places/trench/' | relative_url }}), [The Torchbearer]({{ '/wiki/characters/the-torchbearer/' | relative_url }})*
