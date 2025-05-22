@@ -17,66 +17,68 @@ title: Welcome to my Wiki
 
     <div class="featured-grid">
       {% if featured_count > 0 %}
-        {% for page in featured_pages limit: display_limit %}
-          <div class="featured-item">
+        {% for page in featured_pages limit:display_limit %}
+          <div class="home-featured-item">
             <h3><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h3>
             <p>{{ page.excerpt | strip_html | truncatewords: 20 }}</p>
           </div>
         {% endfor %}
       {% else %}
-        <div class="featured-item">
+        <div class="home-featured-item">
           <h3><a href="{{ '/wiki/places/dema/' | relative_url }}">Dema</a></h3>
           <p>Discover the oppressive city controlled by the Nine Bishops.</p>
         </div>
-        <div class="featured-item">
+        <div class="home-featured-item">
           <h3><a href="{{ '/wiki/characters/clancy/' | relative_url }}">Clancy</a></h3>
           <p>Follow the story of the rebel protagonist and his letters.</p>
         </div>
-        <div class="featured-item">
+        <div class="home-featured-item">
           <h3><a href="{{ '/wiki/concepts/vialism/' | relative_url }}">Vialism</a></h3>
           <p>Understand the core ideology of Dema.</p>
         </div>
-        <div class="featured-item">
+        <div class="home-featured-item">
           <h3><a href="{{ '/wiki/lore/timeline/' | relative_url }}">Timeline</a></h3>
           <p>Explore the chronological order of events.</p>
         </div>
       {% endif %}
     </div>
   </section>
+  
+  <div class="home-columns">
+    <section class="categories-section home-categories">
+      <h2>Browse by Category</h2>
+      <div class="wiki-categories-list">
+        {% assign all_categories = "" | split: "" %}
+        {% for page in site.wiki %}
+          {% if page.categories %}
+            {% assign all_categories = all_categories | concat: page.categories %}
+          {% endif %}
+        {% endfor %}
+        
+        {% assign unique_categories = all_categories | uniq | sort %}
+        {% for category in unique_categories limit:10 %}
+          <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) }}" class="category-tag">{{ category }}</a>
+        {% endfor %}
+      </div>
+    </section>
 
-  <section class="categories-section home-categories">
-    <h2>Browse by Category</h2>
-    <div class="wiki-categories-list">
-      {% assign all_categories = "" | split: "" %}
-      {% for page in site.wiki %}
-        {% if page.categories %}
-          {% assign all_categories = all_categories | concat: page.categories %}
-        {% endif %}
-      {% endfor %}
-      
-      {% assign unique_categories = all_categories | uniq | sort %}
-      {% for category in unique_categories limit:10 %}
-        <a href="{{ site.baseurl | append: '/wiki/category/' | append: (category | downcase) }}" class="category-tag">{{ category }}</a>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="recent-updates-section">
-    <h2>Recently Updated</h2>
-    <ul class="wiki-list home-recent-list">
-      {% assign recent_pages = site.wiki | sort: 'date' | reverse %}
-      {% for page in recent_pages limit:5 %}
-        <li>
-          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-          {% if page.date %}<span class="date">- {{ page.date | date: "%B %d, %Y" }}</span>{% endif %}
-        </li>
-      {% endfor %}
+    <section class="recent-updates-section">
+      <h2>Recently Updated</h2>
+      <ul class="wiki-list home-recent-list">
+        {% assign recent_pages = site.wiki | sort: 'date' | reverse %}
+        {% for page in recent_pages limit:5 %}
+          <li>
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+            {% if page.date %}<span class="date">- {{ page.date | date: "%B %d, %Y" }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </section>
 
   <section class="cta-section">
     <h2>Ready to Dive In?</h2>
-    <p>Browse all topics and find exactly what you're looking for.</p>
-    <a href="{{ '/wiki/' | relative_url }}" class="btn btn-secondary">Go to Full Wiki Index</a>
+    <p>Explore the full wiki and uncover all the secrets of Dema and Trench.</p>
+    <a href="{{ '/wiki/' | relative_url }}" class="btn btn-primary">Explore the Full Wiki</a>
   </section>
 </div>
