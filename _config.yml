@@ -10,6 +10,9 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:path/
+  lyrics:
+    output: true
+    permalink: /lyrics/:title/
 
 defaults:
   - scope:

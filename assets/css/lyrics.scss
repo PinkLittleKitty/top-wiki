@@ -1,0 +1,44 @@
+.lyrics-listing {
+  .album-section {
+    margin-bottom: 2em;
+    h2 {
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.5em;
+      margin-bottom: 0.5em;
+      .album-label {
+        font-size: 0.8em;
+        color: #888;
+      }
+    }
+  }
+  .song-list {
+    list-style: none;
+    padding-left: 0;
+    li {
+      margin-bottom: 0.5em;
+    }
+  }
+}
+
+.lyric-display {
+  .lyric-meta {
+    margin-bottom: 1.5em;
+    p {
+      margin: 0.2em 0;
+      color: #ccc;
+      strong {
+        color: #eee;
+      }
+    }
+  }
+  .lyric-text {
+    line-height: 1.8;
+    white-space: pre-wrap;
+    margin-bottom: 2em;
+  }
+  .back-link {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+  }
+}

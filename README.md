@@ -15,6 +15,7 @@ The lore is deep, and this wiki is an attempt to bring it all together in an acc
 *   **Comprehensive Lore Entries:** Detailed pages on characters, locations, concepts, timeline events, and more.
 *   **Thematic Design:** A dark, immersive theme inspired by the TØP aesthetic (Dema, Trench, Clancy).
 *   **Easy Navigation:**
+    *   Dedicated Lyrics section with songs grouped by album.
     *   Homepage with featured articles and recent updates.
     *   Browse by category.
     *   "All Pages" view with alphabetical sorting.
@@ -71,6 +72,12 @@ Contributions are welcome! Whether it's adding new lore, correcting information,
 3.  Ensure you add appropriate `front matter` to each new page (e.g., `layout: wiki`, `title`, `categories`).
 4.  To feature a page on the homepage or wiki homepage, add `featured: true` to its front matter.
 5.  Fork the repository, make your changes, and submit a pull request!
+
+### Adding/Editing Lyrics:
+1.  Lyric pages are located in the `_lyrics` directory.
+2.  Content is written in Markdown (`.md` files).
+3.  Ensure you add appropriate `front matter` to each new song: `layout: lyric`, `title` (song title), `album`, and optionally `track_number`.
+    Example: `title: "Stressed Out"`, `album: "Blurryface"`, `track_number: 2`
 
 ### Style & Code:
 

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="content-container">
+  <main class="main-content lyric-display">
+    <article class="lyric-page">
+      <h1>{{ page.title }}</h1>
+      <div class="lyric-meta">
+        <p><strong>Album:</strong> {{ page.album | default: "N/A" }}</p>
+        {% if page.track_number %}
+          <p><strong>Track:</strong> {{ page.track_number }}</p>
+        {% endif %}
+        {% if page.release_date %}
+          <p><strong>Released:</strong> {{ page.release_date | date: "%B %d, %Y" }}</p>
+        {% endif %}
+      </div>
+
+      <div class="lyric-text">
+        {{ content | newline_to_br }} {# Preserves line breaks from Markdown #}
+      </div>
+
+      <p><a href="{{ '/lyrics/' | relative_url }}" class="back-link">Back to All Lyrics</a></p>
+    </article>
+  </main>
+</div>
