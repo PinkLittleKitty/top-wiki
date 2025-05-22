@@ -1,9 +1,6 @@
 ---
 ---
 
-@import "minima";
-@import "lyrics";
-
 // TØP Theme Variables
 $top-bg-dark: #181818;
 $top-bg-medium: #222222;
@@ -16,6 +13,9 @@ $top-link-hover: #ffffff;
 
 $font-body: 'Lato', 'Helvetica Neue', Arial, sans-serif;
 $font-heading: 'Oswald', 'Impact', 'Arial Black', sans-serif;
+
+@import "minima";
+@import "lyrics";
 
 :root {
   --top-bg-dark: #{$top-bg-dark};
