@@ -161,7 +161,6 @@ featured: true
       </div>
         <h2><span class="tape-accent-yellow">The sun will rise. And we will try again. |-/</span></h2>
     </div>
-  </div>
 
 </div>
 
