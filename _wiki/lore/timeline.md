@@ -141,11 +141,25 @@ featured: true
       <div class="timeline-marker"></div>
       <div class="timeline-content">
           <p>In “City Walls,” Clancy faces and defeats Nico once and for all, harnessing his final strength as Torchbearer arrives in support. The struggle ends not with escape or rebellion but with Clancy succumbing—stabbed by his antlers and ultimately transforming. <a href="{{ '/wiki/media/city-walls-mv/' | relative_url }}" class="timeline-event-link">(City Walls MV)</a></p>
+        </div>
+    </div>
+    <div class="timeline-marker"></div>
+      <div class="timeline-content">
           <p>Clancy tears a red curtain into a bishop's cloak, handing one to each Bandito who entered the tower with him. He takes his place among the Bishops as the Nova Bishop. The cycle of rebellion ends—the rebels became rulers, the system persists, and Torchbearer mourns the loss of “this Clancy.”</p>
-          <p>It is revealed that Clancy is a mantle, not a single person, and Nico was once a Clancy too. The cycle itself is broken but the cost is high: Clancy is lost, Dema endures. <a href="{{ '/wiki/albums/breach/' | relative_url }}" class="timeline-event-link">(Breach Album)</a></p>
-          <p>Torchbearer packs up to return to Trench, refusing Clancy’s offered cloak. He expresses hope to try again if needed.</p>
-        <p>The sun will rise. And we will try again. |-/</p>
       </div>
+    </div>
+    <div class="timeline-marker"></div>
+      <div class="timeline-content">
+          <p>It is revealed that Clancy is a mantle, not a single person, and Nico was once a Clancy too. The cycle itself is broken but the cost is high: Clancy is lost, Dema endures. <a href="{{ '/wiki/albums/breach/' | relative_url }}" class="timeline-event-link">(Breach Album)</a></p>
+          </div>
+    </div>
+    <div class="timeline-marker"></div>
+      <div class="timeline-content">
+          <p>Torchbearer packs up to return to Trench, refusing Clancy’s offered cloak. He expresses hope to try again if needed.</p>
+          </div>
+    </div>
+      </div>
+        <h2><span class="tape-accent-yellow">The sun will rise. And we will try again. |-/</span></h2>
     </div>
   </div>
 
