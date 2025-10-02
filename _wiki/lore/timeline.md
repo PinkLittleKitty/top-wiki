@@ -147,6 +147,7 @@ featured: true
         <p>The sun will rise. And we will try again. |-/</p>
       </div>
     </div>
+  </div>
 
 </div>
 
